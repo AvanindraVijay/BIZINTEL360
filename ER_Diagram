@@ -1,0 +1,9 @@
+[Products]          [Vendors]         [Customers]
+   |                   |                  |
+   ↓                   ↓                  ↓
+[Inventory]       [Expense_Reports]   [Customer_Feedback]
+      |                 |                   |
+      ↓                 ↓                   ↓
+   [Sales_Data] --------┬--------> [Transactions]
+                         \
+                          → [Marketing_Campaigns]
